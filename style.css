@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    height: 100%;
+}
+.parallax, .parallax2{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax{
+    background-image: url(people.jpg);
+    height:200px;
+}
+
+.parallax2{
+    background-image: url(field.jpg);
+    min-height: 100%;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+}
+
+span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text{
+
+    box-sizing: border-box;
+    font-size: 2em;
+    width: 60%;
+    padding: 10px ;
+    margin: 0px auto;
+    text-align: justify;
+
+}
